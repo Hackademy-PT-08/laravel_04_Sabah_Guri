@@ -1,0 +1,20 @@
+.myColor{
+    color:#c3979f ;
+}
+
+.hompageBackground{
+    background-color:antiquewhite;
+    height: 800px;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundImage{
+    background-image: url(https://images.pexels.com/photos/3747142/pexels-photo-3747142.jpeg?auto=compress&cs=tinysrgb&w=1200);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
