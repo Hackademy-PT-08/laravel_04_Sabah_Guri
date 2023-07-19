@@ -13,6 +13,12 @@
       <p class="card-text h6">Prezzo:{{$price}}</p>
       
 
-      <a href="{{route($route,['id'=>$id])}}" class="btn btn-primary">Pagina dettaglio</a>
+      <a href="{{route($route,['id'=>$id])}}" class="btn btn-primary">
+        @if (Route::currentRouteName()=='all-products')
+          Pagina dettaglio
+        @else
+          Torna indietro 
+        @endif
+        </a>
     </div>
   </div>
